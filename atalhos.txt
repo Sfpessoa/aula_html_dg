@@ -3,3 +3,7 @@ ctrl + ; - criar comentario
 alt + z - quebra linha
 ctrl + espaço - seleciona um arquivo
 ctrl + j - abre o terminal
+ctrl + z - desfazer
+
+
+
