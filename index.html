@@ -1,0 +1,55 @@
+<!-- estrutura básica HTML -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- tag para configuracoes -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titulo da pagina -->
+    <title>aula html</title>
+</head>
+<body >
+        <style>
+            body {
+                background-color: rgb(91, 91, 216);
+            }
+            .mode {
+                background-color:black;
+                color: antiquewhite;
+            }
+
+            button {
+                background-color: red;
+            }
+        </style>
+    <!-- conteudo principal -->
+    <main>
+        <button onclick="mudarTema ()">alterar tema</button>
+        <!-- titulo principal -->
+        <h1>desenvolvimento web </h1>
+        <!-- paragrafo -->
+        <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Veritatis laborum, illo perferendis, adipisci labore reiciendis id cum aliquam obcaecati, neque repellat perspiciatis natus eius ad. <em>Sapiente</em> vero ratione explicabo consequatur.</p>
+        <!-- sub-titulo -->
+        <h2>linguagem de marcação de hipertexto</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Pariatur, similique.</p>
+        <h6>ultimo de nivel de titulo </h6>
+
+        <!--  LINKS-->
+          <!-- link externo -->
+          <a target="_blank" href="https:/www.google.com">ir para o google</a> <br>
+          
+          <!-- link interno -->
+           <a  target="_blank" rel="noopener noreferrer" href="segundaPagina.html">ir para detalhes</a> <br>
+
+<!-- colocar imagem -->
+           <img src="https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png" alt="icone html" width="200" height="200">
+        
+    </main>al 
+    <!-- javascript -->
+    <script> 
+        function mudarTema () {
+                document.body.classList.toggle ('mode') 
+        }
+    </script>
+</body>
+</html>!

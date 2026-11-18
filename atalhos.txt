@@ -1,0 +1,5 @@
+ctrl + ; - criar comentario
+! - cria estrutura basica html
+alt + z - quebra linha
+ctrl + espaço - seleciona um arquivo
+ctrl + j - abre o terminal
